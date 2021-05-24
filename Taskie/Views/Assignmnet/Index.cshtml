@@ -1,0 +1,68 @@
+﻿@using Taskie.Models
+@model Taskie.Models.AssignmentListingModel
+
+<style>
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+th {
+  background-color: #4287f5;
+  color: white;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+h2 {
+  color: #4287f5;
+}
+
+</style>
+
+
+
+<div>
+    <h2>This Page Holds all the assignments</h2>
+</div>
+<div>
+    <h3>Create New Task:</h3>
+    <form  method="post">
+    <input type="submit" value="Create Task" />
+    </form>
+</div>
+<div>
+    <hr />
+    <!--ADD ASSIGNMENT TABLE HERE-->
+   
+ @if (Model.Assigments_List != null) {
+
+       <table>
+        <tr>
+            <th>Author</th>
+            <th>Priority</th>
+            <th>Title </th>
+            <th>Description</th>
+            <th>Image Associated</th>
+        </tr>
+        <tr>
+            @foreach( var item in Model.Assigments_List )
+            {
+                <td>@item.Created_By_Employee_ID</td>
+                <td>@item.Assignment_Priority</td>
+                <td>@item.Assignment_Title</td>
+                <td>@item.Assignment_Description</td>
+                <td>@item.Assignment_Image</td>
+            }
+        </tr>
+    </table>
+ }
+
+
+</div>
