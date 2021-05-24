@@ -30,7 +30,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This Repo Contains Jupyter notebooks for TaskDistributionModule Projects.
+This Repo Contains Code and solution files for 'Task Distribution Module'.
 
 ### Built Via
 
