@@ -79,12 +79,17 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/TaskDistributionModule`)
 5. Open a Pull Request
 
+
 <!-- CONTACT -->
 ## Contact
 
-[@WaleedJaved](https://twitter.com/codeChaudhary) - waleedjavied@gmail.com
+[![LinkedIn Link](https://img.shields.io/badge/Waleed-Connect-blue?style=social&logo=linkedin&longCache=true&style=social&label=Waleed
+)](https://www.linkedin.com/in/waleed-javed)
 
-[https://github.com/waleed-javed/TaskDistributionModule](https://github.com/waleed-javed/TaskDistributionModule)
+[![](https://img.shields.io/badge/Twitter-Waleed--Javed-blue?logo=twitter&style=social)](https://twitter.com/codeChaudhary)
+
+[![Github](https://img.shields.io/badge/Github-Waleed--javed-black?logo=github&style=social)](https://github.com/waleed-javed/TaskDistributionModule)
+
 
 <!-- LICENSE -->
 ## License
